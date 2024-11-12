@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <link rel="stylesheet" href="./assets/css/estilos2.css">
+    </head>
+    <body onload="asignarEventos()">
+        <div class="container">
+            <div class="contenedores" id="cIzquierda">
+                <button id="elBotonIzquierda">push Izquierda</button>
+            </div>
+            <div class="contenedores" id="cDerecha">
+                <button id="elBotonDerecha">push Derecha</button>
+            </div>
+        </div>
+        <h2>Productos Disponibles</h2>
+        <form>
+            <div id="labelProductos" class="losProductos">
+                <label for="txtLeche">Leche $1000</label><br>
+                <label for="txtPan">Pan de Molde $2000</label><br>
+                <label for="txtQueso">Queso $1200</label><br>
+                <label for="txtMermelada">Mermelada $890</label><br>
+                <label for="txtAzucar">Azucar $1300</label><br><br>
+            </div>
+            <div id="inputProductos" class="losProductos">
+                <input type="number" id="txtLeche"><br>
+                <input type="number" id="txtPan"><br>
+                <input type="number" id="txtQueso"><br>
+                <input type="number" id="txtMermelada"><br>
+                <input type="number" id="txtAzucar"><br>
+                <input type="button" id="btnCalcular" value="Calcular">
+            </div>
+        </form>
+        <p>Valor Final a Pagar: <span id="txtValorFinalAPagar">0</span></p>
+        <h3>Detalles de la compra:</h3>
+        <p id="prfDetallesCompra"></p>
+        <script src="./assets/js/logica.js"></script>
+    </body>
+</html>

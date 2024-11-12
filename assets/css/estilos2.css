@@ -1,0 +1,81 @@
+body {
+    background-color: #FFE5B4;
+    /* Color piel */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* Para que los elementos se alineen verticalmente */
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    /* Espacio entre los botones */
+}
+
+.contenedores {
+    background-color: lightgreen;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#cDerecha {
+    background-color: lightpink;
+}
+
+h2,
+p {
+    text-align: center;
+}
+
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+form input[type="number"] {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100px;
+}
+
+form input[type="button"] {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.losProductos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    margin: 0 auto;
+}
+
+#labelProductos {
+    background-color: violet;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#inputProductos {
+    background-color: lightsalmon;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#prfDetallesCompra {
+    text-align: center;
+    margin-top: 20px;
+}

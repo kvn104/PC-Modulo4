@@ -1,0 +1,27 @@
+.contenedores{
+    display: inline-block;
+    gap: 2%;
+    width: 48%;
+}
+
+#cIzquierda{
+    background-color: lightgreen;
+}
+
+#cDerecha{
+    background-color: lightpink;
+}
+
+.losProductos{
+    display: inline-block;
+    gap: 2%;
+    width: 10%;
+}
+
+#labelProductos{
+    background-color: violet;
+}
+
+#inputProductos{
+    background-color: lightsalmon;
+}
